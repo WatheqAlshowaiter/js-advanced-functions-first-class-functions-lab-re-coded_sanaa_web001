@@ -25,3 +25,14 @@ const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
     function fareTripler (someIntger){
     return someIntger * 3;
   }
+  
+  
+  
+  
+  function selectDifferentDrivers(arrayOfDrivers, returnFirstSomeDrivers) {
+  if (returnFirstSomeDrivers == "selectDifferentDrivers") {
+    return selectDifferentDrivers(arrayOfDrivers);
+  } else if (returnFirstSomeDrivers == "returnLastTwoDrivers") {
+    return returnLastTwoDrivers(arrayOfDrivers);
+  }
+}
