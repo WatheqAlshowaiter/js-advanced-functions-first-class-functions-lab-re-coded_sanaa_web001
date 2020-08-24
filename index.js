@@ -21,3 +21,7 @@ const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
    function fareDoubler(someIntger){
     return someIntger * 2;
   }
+  
+    function fareTripler (someIntger){
+    return someIntger * 3;
+  }
