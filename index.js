@@ -27,12 +27,10 @@ const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
   }
   
   
-  
-  
-  function selectDifferentDrivers(arrayOfDrivers, returnFirstSomeDrivers) {
-  if (returnFirstSomeDrivers == "selectDifferentDrivers") {
-    return selectDifferentDrivers(arrayOfDrivers);
-  } else if (returnFirstSomeDrivers == "returnLastTwoDrivers") {
+  function selectDifferentDrivers(arrayOfDrivers, chooseFunctionToSelect) {
+  if (chooseFunctionToSelect === "returnFirstTwoDrivers") {
+    return returnFirstTwoDrivers(arrayOfDrivers);
+  } else if (chooseFunctionToSelect === "returnLastTwoDrivers") {
     return returnLastTwoDrivers(arrayOfDrivers);
   }
 }
