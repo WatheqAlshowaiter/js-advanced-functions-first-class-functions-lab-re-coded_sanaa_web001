@@ -17,3 +17,7 @@ const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
       return someIntger * someIntger;
     }
   }
+  
+   function fareDoubler(someIntger){
+    return someIntger * 2;
+  }
